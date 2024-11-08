@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.container {
+		@apply relative;
+	}
+	.flexCenter {
+		@apply flex items-center justify-center;
+	}
+	.btnMain {
+		@apply h-[50px] px-[30px] py-[16px] text-white flexCenter rounded-[2px] font-semibold uppercase text-[16px] relative border-[1px] _xs:h-[40px];
+	}
+}
